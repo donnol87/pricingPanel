@@ -1,6 +1,24 @@
+body{
+    background-color: aqua;
+}
 .pricing-table{
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 100vh;
+    justify-content: space-between;
+    background-color: aliceblue ;
+    border-radius: 10px;
+    margin-top: 25%;
+}
+.pricing-plan{
+    text-align: center;
+    height: 50vh;
+    /* width: 50; */
+}
+img{
+    width: 50%;
+}
+.border-right{
+    border-right: 1px black solid;
+    margin: 10px 0px;
 }
