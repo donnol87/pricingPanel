@@ -1,8 +1,15 @@
 body{
-    background-color: aqua;
+    background-color: rgb(74, 168, 255);
     font-family: Arial, Helvetica, sans-serif;
-    color: rgb(98, 98, 255);
+    color: rgb(74, 168, 255);
     font-size: 1em;
+}
+h2{
+    color: rgb(134, 134, 134);
+}
+h3{
+    color:rgb(49, 113, 173);
+    padding: .5em;
 }
 .pricing-table{
     display: flex;
@@ -37,16 +44,18 @@ hr{
     justify-content: center;
     margin:1em;
     font-weight:900;
-    font-size: 1em;
+    font-size: 1.5em;
+    color: blue;
     
 }
 .pricing-button{
-    border: 1px blue solid;
+    border: 1px rgb(74, 168, 255) solid;
     padding: .75em;
-    color: black;
-    border-radius: 2px;
+    color: rgb(74, 168, 255);
+    border-radius: 10px;
+    text-decoration: none;
 }
 .is-featured{
-    background-color: rgb(98, 98, 255);
+    background-color: rgb(74, 168, 255);
     color: white;
 }
