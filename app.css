@@ -59,3 +59,17 @@ hr{
     background-color: rgb(74, 168, 255);
     color: white;
 }
+@media (max-width: 600px) {
+    .pricing-table {
+      flex-wrap: wrap;
+    }
+    .border-right{
+        border-right: none;
+    }
+    .pricing-plan{
+        border: 1px rgb(74, 168, 255)solid;
+        border-radius: 20px;
+        padding: 1.5em;
+        margin:1em;
+    }
+  }
