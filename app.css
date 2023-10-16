@@ -2,7 +2,7 @@ body{
     background-color: rgb(74, 168, 255);
     font-family: Arial, Helvetica, sans-serif;
     color: rgb(74, 168, 255);
-    font-size: 1em;
+    font-size: .75em;
 }
 h2{
     color: rgb(134, 134, 134);
@@ -21,6 +21,7 @@ h3{
     margin: 10%;
     box-shadow: 1px 1px 20px black;
     padding: 1em;
+    text-transform: uppercase;
 }
 .pricing-plan{
     text-align: center;
@@ -32,11 +33,12 @@ img{
     height: 50%;
 }
 .border-right{
-    border-right: 1px black solid;
+    border-right: 1px rgb(209, 209, 209) solid;
     margin: 10px 0px;
 }
 hr{
     margin: 20px;
+    color: rgb(209, 209, 209);
 }
 .pricing-price{
     /* align-items: center; */
@@ -54,10 +56,23 @@ hr{
     color: rgb(74, 168, 255);
     border-radius: 10px;
     text-decoration: none;
+    display: inline-block;
+}
+.pricing-button:hover{
+    background-color: rgb(74, 168, 255);
+    color: azure;
+    scale: 1.5;
+    transition: .5s;
 }
 .is-featured{
     background-color: rgb(74, 168, 255);
     color: white;
+}
+.is-featured:hover{
+    background-color: azure;
+    color: rgb(74, 168, 255);
+    scale: 1.5;
+    transition: .5s;
 }
 @media (max-width: 600px) {
     .pricing-table {
